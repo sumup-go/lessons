@@ -1,6 +1,5 @@
 % Intro to programming
 % Tom Arrell
-% December 2, 2019
 
 # What to expect?
 
@@ -67,7 +66,7 @@ Writing binary is hard so we need a way to make it easier for humans
 Don't worry if these don't make sense just yet, they will soon.
 
 ::: incremental
-- Golang is a 10 year old language, designed by Robert Griesemer, Rob Pike, and Ken Thompson at Google
+- Golang is a 11 year old language, designed by Robert Griesemer, Rob Pike, and Ken Thompson at Google
 - It is compiled
 - Garbage collected
 - Statically typed
@@ -220,7 +219,7 @@ Hello, Tom
 
 ---
 
-*lesson 1, fin*
+*lesson 2, fin*
 
 On to more advanced things next week
 

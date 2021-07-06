@@ -1,6 +1,5 @@
 % Control structures
 % Tom Arrell
-% December 9, 2019
 
 ![SumUp Gopher](../../sumup-gopher.png){width=180 height=180}
 
@@ -154,15 +153,16 @@ func main() {
 ...
 
 func main() {
-	scanner := bufio.NewScanner(os.Stdin)
-	fmt.Print("What's your name? ")
-	name := scanner.Scan()
-
-  if name == "Luke Skywalker" {
-    fmt.Println("May the force be with you!")
-  } else {
-    fmt.Println("Hello,", name)
-  }
+    scanner := bufio.NewScanner(os.Stdin)
+    fmt.Print("What's your name? ")
+    scanner.Scan()
+    name := scanner.Text()
+    
+    if name == "Luke Skywalker" {
+        fmt.Println("May the force be with you!")
+    } else {
+        fmt.Println("Hello,", name)
+    }
 }
 ```
 
