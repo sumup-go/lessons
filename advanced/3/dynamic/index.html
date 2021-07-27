@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Go Lessons Form</title>
+</head>
+<body>
+    {{if .Name}}
+        <h1>Your submission has been recorded, {{.Name}}</h1>
+    {{else}}
+    <form method="POST">
+        <label>Name
+            <input type="text" name="name">
+        </label><br>
+    </form>
+    {{end}}
+</body>
+</html>
