@@ -27,7 +27,7 @@ Currently, we support two tracks - Beginners and Advanced.
 
 ### Advanced
 
-TODO: add lessons
+Lessons for the Advanced track can be found [here](https://github.com/sumup-go/lessons/tree/main/advanced).
 
 ### Useful links
 
