@@ -14,7 +14,7 @@ func f1(out chan int) {
 }
 
 func f2(inp chan int) {
-	for v  := range inp {
+	for v := range inp {
 		fmt.Println(v)
 	}
 }

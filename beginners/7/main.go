@@ -31,5 +31,4 @@ func main() {
 
 	anInt = 30
 	fmt.Println(derefInt(&anInt)) // 30
-
 }

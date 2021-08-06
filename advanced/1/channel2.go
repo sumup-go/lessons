@@ -11,6 +11,5 @@ func main() {
 	fmt.Println("one")
 }
 
-
 // Questions:
 // What happens if no goroutine reads the received value?

@@ -13,9 +13,9 @@ func getNumber2() int {
 	go func() {
 		i = 5
 	}()
-	
+
 	fmt.Println("a")
-	
+
 	return i
 }
 
