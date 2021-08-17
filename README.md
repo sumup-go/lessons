@@ -2,15 +2,15 @@
 
 Welcome to the docs for the Golang lessons hosted at SumUp. Here you will find all the relevant information that we've covered during the sessions.
 
-Sessions are conducted online every other **Tuesday** from **5:30pm to 6:15pm**. TODO: links
+Sessions are conducted online every other **Tuesday** from **5:00pm to 6:00pm**.
 
-## Aplicaiton form for new joiners
+## Application form for new joiners
 
-If you haven't joined yet, we had great news - the enrollment is still open. Please, fill a bare-bone form [here](https://bit.ly/3BLiewl) so we can send you an invite. 
+If you haven't joined yet, great news - the enrollment is still open. Please fill a bare-bones form [here](https://bit.ly/3BLiewl) so we can send you an invite. 
 
 ## Tracks 
 
-Currently, we support two tracks - Beginners and Advanced.
+Currently, we support two tracks - Beginner and Advanced.
 
 ### Beginners
 
