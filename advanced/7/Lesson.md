@@ -2,7 +2,7 @@
 
 Initiate postgres:
 
-    docker run --rm --name postgres-lesson-5 -e POSTGRES_PASSWORD=postgres -p 5432:5432 postgres
+    docker run --rm --name postgres-lesson-7 -e POSTGRES_PASSWORD=postgres -p 5432:5432 postgres
 
 Install migration tool:
 
@@ -11,7 +11,7 @@ Install migration tool:
 
 Run migration via CLI:
 
-    migrate -database postgres://postgres:postgres@localhost:5432/postgres -path ./migrations up
+    migrate -database "postgres://postgres:postgres@localhost:5432/postgres?sslmode=disable" -path migrations down
 
 Generate Go code:
 
