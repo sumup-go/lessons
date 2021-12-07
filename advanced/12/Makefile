@@ -1,6 +1,25 @@
 .PHONY: gen
-gen:
-	oapi-codegen -package l11 spec.yaml > gen.go
+gen: ## Generate the API from spec
+	oapi-codegen -package main spec.yaml > gen.go
+
+.PHONY: run
+run: ## Run the binary
+	go run .
+
+.PHONY: test-migrate
+test-migrate: ## Test the migrations
+	# bring up postgres DB
+	# run the migrations in the up direction
+	# run the migrations in the down direction
+	docker run -d \
+    --name postgres \
+		-p 5432:5432 \
+    -e POSTGRES_PASSWORD=postgres \
+    postgres
+	./pg-wait.sh
+	migrate -path=migrations -database=postgres://postgres:postgres@localhost:5432/postgres?sslmode=disable up
+	docker kill postgres
+	docker rm postgres
 
 ## Help display.
 ## Pulls comments from beside commands and prints a nicely formatted
