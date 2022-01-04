@@ -1,0 +1,40 @@
+openapi: 3.0.3
+info:
+  title: Go Lessons Spec
+  description: Go Lessons Spec
+  version: 1.0.0
+servers:
+  - url: 'https'
+paths:
+  "/participant":
+    post:
+      responses:
+        "201":
+          description: Created
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/Participant"
+
+
+components:
+  schemas:
+    Participant:
+      type: object
+      properties:
+        track:
+          type: string
+          enum:
+            - Advanced
+            - Beginners
+        email:
+          type: string
+          format: email
+
+
+
+
+
+  
