@@ -7,6 +7,7 @@ require (
 	github.com/getkin/kin-openapi v0.85.0
 	github.com/jmoiron/sqlx v1.3.4
 	github.com/labstack/echo/v4 v4.6.1
+	github.com/segmentio/kafka-go v0.4.25
 )
 
 require (
@@ -20,7 +21,6 @@ require (
 	github.com/mattn/go-colorable v0.1.8 // indirect
 	github.com/mattn/go-isatty v0.0.14 // indirect
 	github.com/pierrec/lz4 v2.6.0+incompatible // indirect
-	github.com/segmentio/kafka-go v0.4.25 // indirect
 	github.com/valyala/bytebufferpool v1.0.0 // indirect
 	github.com/valyala/fasttemplate v1.2.1 // indirect
 	golang.org/x/crypto v0.0.0-20210921155107-089bfa567519 // indirect

@@ -1,0 +1,5 @@
+version: 1
+packages:
+- path: "sqlc"
+  queries: "./queries.sql"
+  schema: "./migrations"
