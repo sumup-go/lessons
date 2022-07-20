@@ -14,8 +14,8 @@ Currently, we support two tracks - Beginner and Advanced.
 
 ### Beginners
 
-1. [Intro](Initial setup.md)
-2. 2019-12-02 - Lesson 1: intro to programming [slides](./beginners/1/intro.pdf)
+1. [Intro](Initial%20setup.md)
+2. 2019-12-02 - Lesson 1: intro to programming [slides](./beginners/1/lesson1.md)
 3. 2019-12-09 - Lesson 2: control structures [slides](./beginners/2/out.pdf)
 4. 2019-12-16 - Lesson 3: scopes and slices [slides](./beginners/3/out.pdf)
 5. 2020-01-06 - Lesson 4: go concepts [slides](./beginners/4/out.pdf)
