@@ -35,7 +35,7 @@ The Advanced track is intended for people who want to switch from another progra
 Sessions are conducted online every other **Wednesday** from **4:00pm to 5:00pm** online:
 
 - Beginners Track: [Zoom link](https://sumup.zoom.us/j/98019958476)
-- Advanced Track: [Zoom link](https://sumup.zoom.us/j/93881003779)
+- Advanced Track: [Zoom link](https://sumup.zoom.us/j/94498892289)
 
 ## Enrollment
 
