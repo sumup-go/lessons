@@ -11,6 +11,7 @@ func do(ch chan bool) {
 
 func main() {
 	ch := make(chan bool)
+	go do(ch)
 
 	ch <- true
 }

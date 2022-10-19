@@ -1,4 +1,8 @@
-# Lesson 1
+# Go Lesson
+
+## First Dive: Run Your First Program
+
+Go (or Golang) is an open source programming language created by Google.
 
 What do you need to run a Go program?
 
@@ -7,7 +11,7 @@ What do you need to run a Go program?
 
 Or you can start even simpler and run the program in the go playground. Just follow this (link)[https://goplay.tools/].
 
-As not all your installed the Go compiler, let's jump into the playground (and please install the Go compiler by next lesson) Here we see our first program already written for us.
+As not all your installed the Go compiler, let's jump into the playground (and please install the Go compiler by next lesson). 
 
 ```go
 package main
@@ -21,17 +25,29 @@ func main() {
 }
 ```
 
-Please open the playground in your browser and run the program. 
+Please open the playground in your browser and run the program.
 
 We will be learning by doing, and you are expected to write the code during the lessons.
 
-## Activity
-
-### Change the output
+## Output
 
 Try to change the output string and print "Hello world".
 
-### Change package
+---spo
+
+```go
+package main
+
+import (
+	"fmt"
+)
+
+func main() {
+	fmt.Println("Let's do it")
+}
+```
+
+## Package
 
 Now, the fun part. One of the most useful things that you can during the learning is to try to break the things.
 
@@ -61,9 +77,9 @@ What does it mean?
 
 In this case, we are trying to execute a program. `package main` is a special name, and we can only execute main packages in Go. So why do need other packages at all? We will cover it in a minute.
 
-### Change import
+## Change import
 
-Now what happens if I remove and import? 
+Now what happens if I remove and import?
 
 Now we got another error:
 
@@ -73,15 +89,15 @@ What does it mean?
 
 The good thing about programming is that 99% or any program is already written. Our Go program work with the browser, and the browser works with the operational system. The task of printing out a string might seem trivial at the first glance but actually it involves a lot of heavy-lifting. Luckily we don't have to worry about it. Other people already took care and wrote a function (Println)[https://pkg.go.dev/fmt#Println] that deals with the printing.
 
-In this case, we are reusing this code by `import` statement and import function `Println` from the standard library. 
+In this case, we are reusing this code by `import` statement and import function `Println` from the standard library.
 
-If click the function name in the doc it will direct us to the (source code)[https://cs.opensource.google/go/go/+/refs/tags/go1.17.6:src/fmt/print.go;l=273] of the standard library that implements Println. We don't need to worry about how this particular function was implemented. 
+If click the function name in the doc it will direct us to the (source code)[https://cs.opensource.google/go/go/+/refs/tags/go1.17.6:src/fmt/print.go;l=273] of the standard library that implements Println. We don't need to worry about how this particular function was implemented.
 
-Here we can find familiar statement `package fmt`. Go authors named this package as `fmt` and therefore we also import it as `package fmt.` 
+Here we can find familiar statement `package fmt`. Go authors named this package as `fmt` and therefore we also import it as `package fmt.`
 
 And this is how you use non-main packages. You can also create your own package `package myOwn`, put some code here and then import it from your `package main` and use it here.
 
-### Change function name
+## Change function name
 
 `func` is a keyword that declares a function. Function allows you to reuse your code.
 
@@ -93,7 +109,7 @@ In this case, we got something interesting - `runtime` error. Notice, that the p
 
 The error message is quite straightforward - package `main` must have function called `main`, so the Go program knows where to start.
 
-### Change imported function call
+## Change imported function call
 
 Let's change `fmt.Println` to `fmt.Write`. Now try to guess what is going to happen before executing the program.
 
@@ -101,11 +117,11 @@ Let's change `fmt.Println` to `fmt.Write`. Now try to guess what is going to hap
 
 The program says to us that it does not know what is `fmt.Write`. It makes sense because we are trying to import function `Write` from package `fmt`. And package `fmt` does not contain this function, so the Go program does not know what to do with this function call.
 
-OK, you can see that even in such a small program **a lot** can get wrong. As you will be starting be prepared that a lot will get wrong :) 
+OK, you can see that even in such a small program **a lot** can get wrong. As you will be starting be prepared that a lot will get wrong :)
 
 ## Read the input
 
-Let's we want to say hello to a user of our program. How can we read the input? 
+Let's we want to say hello to a user of our program. How can we read the input?
 
 There must a library to do so. So we google it first and find that [bufio](https://pkg.go.dev/bufio) package provides the reading functionality.
 
@@ -143,3 +159,7 @@ Now the program asks for out input and prints out the name.
 # Conclusion
 
 In the first session, we learned how to create and execute a Go program that can interacts with a user. Not bad for a start :)
+
+
+
+

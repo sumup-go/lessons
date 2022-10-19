@@ -10,6 +10,3 @@ func main() {
 	ch <- 1
 	fmt.Println("one")
 }
-
-// Questions:
-// What happens if no goroutine reads the received value?

@@ -21,6 +21,3 @@ func getNumber1() int {
 	}
 	return i
 }
-
-// Questions.
-// Can we serialize access using flag `done`?
