@@ -45,7 +45,7 @@ Next sessions start on September 7th.
 
 Lessons for the Advanced track can be found [here](https://github.com/sumup-go/lessons/tree/main/advanced).
 
-Lessons for the Beginners track can be found [here](https://github.com/sumup-go/lessons/tree/main/advanced).
+Lessons for the Beginners track can be found [here](https://github.com/sumup-go/lessons/tree/main/beginners).
 
 ## Setup
 
