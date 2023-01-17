@@ -37,11 +37,9 @@ Sessions are conducted online every other **Wednesday** from **4:00pm to 5:00pm*
 - Beginners Track: [Zoom link](https://sumup.zoom.us/j/98019958476)
 - Advanced Track: [Zoom link](https://sumup.zoom.us/j/93881003779)
 
-Please fill [this](https://airtable.com/shrxXjA8JKL8qcdT1) extremely short form, and we will send you a calendar invite. 
-
 ## Enrollment
 
-Next sessions start on September 7th.
+Please fill [this](https://airtable.com/shrxXjA8JKL8qcdT1) extremely short form, and we will send you a calendar invite. 
 
 ## Learning Materials
 
